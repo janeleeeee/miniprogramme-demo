@@ -1,0 +1,34 @@
+.container {
+  height: 100%;
+  background-color: antiquewhite;
+}
+
+.top_view {
+  height: 200rpx;
+  width: 100%;
+  border: 0.3px solid red;
+}
+
+.scroll_area {
+ 
+  margin-top: 20rpx;
+  border: 1px solid red;
+  overflow: scroll;
+}
+
+.content {
+  width: 200rpx;
+  height: 300rpx;
+  border: 1px solid salmon;
+  margin-top: 10rpx;
+}
+.yes{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.yess{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}

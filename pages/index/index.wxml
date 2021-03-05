@@ -1,0 +1,18 @@
+<!--index.wxml-->
+<view class="container">
+  <!-- 顶部区域 -->
+  <view class="top_view">
+  </view>
+  <!-- 滑动区域 -->
+  <view class="scroll_area" >
+    <scroll-view scroll-y="true"  style="height:{{scrollHeight}}px;" enable-flex='true'	>
+      <view  class="yess">
+      <block wx:for="{{array}}" wx:key="{{index}}">
+        <view class="content">{{item.index}}</view>
+
+      </block>
+    </view>
+    </scroll-view>
+
+  </view>
+</view>
