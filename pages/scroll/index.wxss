@@ -20,7 +20,8 @@
   width: 200rpx;
   height: 300rpx;
   border: 1px solid salmon;
-  margin-top: 10rpx;
+  /* margin-top: 10rpx; */
+  margin-bottom: 20rpx;
 }
 .yes{
   display: flex;
